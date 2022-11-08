@@ -4,10 +4,11 @@
   "description": "Rest API crud User",
   "main": "./dist/app.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node build/index.js",
+    "tsc": "tsc",
     "test": "jest --coverage",
-    "start": "tsc && node ./src/app.ts",
-    "dev": "nodemon ./src/app.ts --exec ts-node",
+    "start": "node build/index.js",
+    "dev": "ts-node-dev ./src/index.ts",
     "lint": "eslint ./src --fix",
     "format": "prettier --write ."
   },
@@ -32,6 +33,7 @@
     "jest-mock": "^29.2.2",
     "node-mocks-http": "^1.11.0",
     "nodemon": "^2.0.20",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "ts-node-dev": "^2.0.0"
   }
 }

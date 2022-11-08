@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "date":"2017-01-01",
+        "weather":"raipy",
+        "visibility":"poor",
+        "comment": "Pretty scary flight, I'm glad I'm alive"
+    },
+    {
+        "id":2,
+        "date":"2017-01-01",
+        "weather":"raipy",
+        "visibility":"poor",
+        "comment": "Pretty scary flight, I'm glad I'm alive"
+    },
+    {
+        "id":3,
+        "date":"2017-01-01",
+        "weather":"raipy",
+        "visibility":"poor",
+        "comment": "Pretty scary flight, I'm glad I'm alive"
+    },
+    {
+        "id":4,
+        "date":"2017-01-01",
+        "weather":"raipy",
+        "visibility":"poor",
+        "comment": "Pretty scary flight, I'm glad I'm alive"
+    },
+    {
+        "id":5,
+        "date":"2017-01-01",
+        "weather":"raipy",
+        "visibility":"poor",
+        "comment": "Pretty scary flight, I'm glad I'm alive"
+    }
+]
